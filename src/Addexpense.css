@@ -1,0 +1,65 @@
+h2{
+    text-align: center;
+}
+input{
+    width: 18vw;
+}
+#fileInp{
+    width: fit-content;
+    margin-left: 9vw;
+}
+select{
+    width: 18vw;
+    font-size: 3vh;
+}
+.dashButton{
+    margin-left: 3vw;
+}
+
+/* Extra small screens */
+@media screen and (max-width:576px){
+    form select{
+        width: max-content;
+    }
+    form input{
+        width: max-content;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form button{
+        width: max-content;
+    }
+    .dashButton{
+        width: max-content;
+    }
+    #fileInp{
+        text-align: center;
+    }
+}
+
+/* Small scrrens */
+@media screen and (min-width:577px) and (max-width:768px){
+    form select{
+        width: max-content;
+    }
+    form input{
+        width: max-content;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form button{
+        width: max-content;
+    }
+    .dashButton{
+        width: max-content;
+    }
+    #fileInp{
+        text-align: center;
+    }
+}

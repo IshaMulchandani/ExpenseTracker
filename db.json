@@ -1,0 +1,155 @@
+{
+  "profiles": [
+    {
+      "id": "1",
+      "name": "isha",
+      "email": "isha@gmail.com",
+      "phone": "1111111111",
+      "username": "isha123",
+      "password": "isha@123",
+      "expense": [
+        {
+          "category": "food",
+          "amount": "200",
+          "notes": "jcnjn",
+          "file": null
+        },
+        {
+          "category": "food",
+          "amount": "200",
+          "notes": "kdwlvmd",
+          "file": null
+        },
+        {
+          "category": "travel",
+          "amount": "10",
+          "notes": "train",
+          "file": null
+        },
+        {
+          "category": "gifts",
+          "amount": "2000",
+          "notes": "birthday party",
+          "file": null
+        },
+        {
+          "category": "entertainment",
+          "amount": "20000",
+          "notes": "flight",
+          "file": null
+        },
+        {
+          "category": "misc",
+          "amount": "500",
+          "notes": "zaza",
+          "file": null
+        },
+        {
+          "category": "food",
+          "amount": "234",
+          "notes": "dfvdfv",
+          "file": null
+        },
+        {
+          "category": "entertainment",
+          "amount": "1500",
+          "notes": "Stand up comedy show",
+          "file": null
+        },
+        {
+          "category": "travel",
+          "amount": "300",
+          "notes": "lonavala bus tickets",
+          "file": {}
+        },
+        {
+          "category": "clothing",
+          "amount": "2000",
+          "notes": "zara sale",
+          "file": "null",
+          "date": "9-2-2024"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "simer",
+      "email": "simer@gmail.com",
+      "phone": "1111111111",
+      "username": "simer123",
+      "password": "simer@123",
+      "expense": [
+        {
+          "category": "clothing",
+          "amount": "2000",
+          "notes": "zara sale",
+          "file": "null",
+          "date": "9-2-2024"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "amrit",
+      "email": "amrit@gmail.com",
+      "phone": "1111111111",
+      "username": "amrit123",
+      "password": "amrit@123",
+      "expense": []
+    },
+    {
+      "id": "5",
+      "name": "deepa",
+      "email": "deepa@gmail.com",
+      "phone": "1111111111",
+      "username": "deepa123",
+      "password": "deepa@123",
+      "expense": []
+    },
+    {
+      "id": "6",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "phone": "1111111111",
+      "username": "abc123",
+      "password": "abc@1234",
+      "expense": []
+    },
+    {
+      "id": "7",
+      "name": "niraj",
+      "email": "niraj@gmail.com",
+      "phone": "1111111111",
+      "username": "niraj123",
+      "password": "niraj@123",
+      "expense": []
+    },
+    {
+      "id": "8",
+      "name": "def",
+      "email": "def@gmail.com",
+      "phone": "1111111111",
+      "username": "def123",
+      "password": "def@12345",
+      "expense": []
+    },
+    {
+      "id": "9",
+      "name": "ghi",
+      "email": "ghi@gmail.com",
+      "phone": "1111111111",
+      "username": "ghi123",
+      "password": "ghi@1234",
+      "expense": []
+    },
+    {
+      "id": "10",
+      "name": "simer aiden",
+      "email": "simeraiden22@gmail.com",
+      "phone": "9820442130",
+      "username": "simrrr",
+      "password": "dreamcatcher",
+      "expense": []
+    }
+  ]
+}

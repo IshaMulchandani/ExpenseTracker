@@ -1,0 +1,31 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.signInCont h3{
+    font-size: 5vh;
+    text-align: center;
+}
+button{
+    text-align: center;
+    border-radius: 4vh;
+}
+
+/* Extra small screens */
+@media screen and (max-width:576px){
+    .usernme input,.passwrd input{
+        width: max-content;
+    }
+    .btn{
+        width: 15vw;
+    }
+}
+
+/* Small screens */
+@media screen and (min-width:577px) and (max-width:768px){
+    .usernme input,.passwrd input{
+        width: max-content;
+    }
+}

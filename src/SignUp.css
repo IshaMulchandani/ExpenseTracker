@@ -1,0 +1,77 @@
+.signUpCont h3{
+    text-align: center;
+    font-size: 6vh;
+    animation: fadeIn 2s infinite ease-in-out;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 20%;
+    }
+    20%{
+        opacity: 40%;
+    }
+    40%{
+        opacity: 60%;
+    }
+    60%{
+        opacity: 80%;
+    }
+    80%{
+        opacity: 100%;
+    }
+    100%{
+        color: rgb(126, 320, 127);
+    }
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.5vh;
+}
+
+button{
+    height: 6vh;
+    width: 10vw;
+    background-color: rgb(126,195,127);
+    color: rgb(51,51,51);
+    font-size: 2.4vh;
+    border: none;
+    font-weight: bolder;
+}
+p{
+    display: block;
+    text-align: center;
+}
+form p{
+    font-size: 2.5vh;
+    color: red;
+}
+
+/* Extra small screens */
+@media screen and (max-width:576px){
+    .signUpCont{
+        width: 100%;
+    }
+    .inpField{
+        width: max-content;
+    }
+    .signUpForm button{
+        width: max-content;
+    }
+}
+
+/* Small screens */
+@media screen and (min-width:577px) and (max-width:768px){
+    .signUpCont{
+        width: 100%;
+    }
+    .inpField{
+        width: max-content;
+    }
+    .signUpForm button{
+        width: max-content;
+    }
+}

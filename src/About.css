@@ -1,0 +1,135 @@
+.abtSec1{
+    display: flex;
+    align-items: center;
+}
+.abtSec1img{
+    width: 50%;
+    margin-left: 1vw;
+}
+.abtSec1txt h4{
+    text-align: center;
+    font-size: 4vh;
+}
+.abtSec1txt p{
+    text-align: justify;
+}
+.abtSec2cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.abtSec2card img{
+    height: 20vh;
+}
+.abtSec2card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0vw 2vw;
+}
+.abtSec2card h5{
+    font-size: 3vh;
+}
+.abtSec2 h4{
+    font-size: 5vh;
+    text-align: center;
+}
+.abtSec3card{
+    display: flex;
+    border: 1px solid rgb(127,195,126);
+    width: fit-content;
+    border-radius: 2vh;
+    align-items: center;
+    padding-right: 2vh;
+}
+.abtSec3card img{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    margin: 2vh;
+}
+.abtSec3 h4{
+    text-align: center;
+    font-size: 5vh;
+}
+#abtSec3card1{
+    position: relative;
+    left: 24vw;
+}
+#abtSec3card2{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    margin-top: 2vh;
+    left: 51vw;
+    padding-right: 0vw;
+    padding-left: 2vw;
+}
+#abtSec3card3{
+    position: relative;
+    left: 24vw;
+    top: 2vh;
+}
+#abtSec3card4{
+    position: relative;
+    flex-direction: row-reverse;
+    top: 4vh;
+    left: 51vw;
+}
+.abtSec3card:hover{
+    background-color: rgb(127,195,126);
+    color: rgb(51,51,51);
+    font-size: larger;
+}
+.abtSec3cardtxt{
+    margin-left: 2vw;
+}
+
+/* Extra-small screens */
+@media screen and (max-width:576px){
+    .aboutCont{
+        width: 100%;
+    }
+    .abtSec1{
+        flex-direction: column-reverse;
+    }
+    .abtSec1txt{
+        width: 90%;
+    }
+    .abtSec1img{
+        width: 100%;
+        margin-top: 5vh;
+    }
+    .abtSec2cards{
+        flex-direction: column;
+    }
+    .abtSec3card img{
+        height: 80px;
+        width: 80px;
+        border-radius: 80px;
+    }
+    .abtSec3cards{
+        margin-left: -12vw;
+    }
+}
+
+/* Small devices */
+@media screen and (min-width:577px) and (max-width:768px){
+    .aboutCont{
+        width: 100%;
+    }
+    .abtSec1txt{
+        padding: 5px;
+    }
+    .abtSec1img{
+        height: 50vh;
+    }
+    .abtSec3cards{
+        margin-left: -8vw;
+    }
+    .abtSec3card img{
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+    }
+}
